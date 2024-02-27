@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "vehicle_reeling",
+	"version": "${version}",
+	"name": "Vehicle Reeling",
+	"description": "Implements the client-side functionality for reeling vehicles ridden by players using fishing rods",
+	"authors": [
+		"UserTeemu"
+	],
+	"contact": {
+		"sources": "https://github.com/UserTeemu/vehicle_reeling"
+	},
+	"license": "LGPL-3.0-or-later",
+	"icon": "assets/vehicle_reeling/icon.png",
+	"environment": "client",
+	"entrypoints": {},
+	"mixins": [
+		"vehicle_reeling.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "*",
+		"java": ">=17"
+	}
+}
